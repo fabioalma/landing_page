@@ -114,3 +114,53 @@ nav div a:hover {
     font-weight: 600;
     text-decoration: none;
 }
+
+/* IMG PROMPT */
+
+#img-prompt {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 32px;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+#img-prompt header {
+    color: #1f2935;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#info-img {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+#info-img a {
+    color: #1f2935;
+    display: block;
+    font-size: 16px;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+#info-img a:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+#info-img .info-img {
+    border-radius: 16px;
+    border: 3px solid #3882f5;
+    margin-bottom: 8px;
+}
+
+#info-img a figure {
+    margin: 0;
+}
