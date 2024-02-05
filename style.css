@@ -52,7 +52,7 @@ nav #logo a {
 }
 
 nav #logo:hover a {
-    transform: scale(1.2);
+    transform: scale(1.1);  /*changed the scale factor from 1.2 to 1.1*/
     transition: all 0.3s;
     border: none;
 }
@@ -72,3 +72,45 @@ nav div a:hover {
     border-bottom: 3px solid #d99326;
 }
 
+/* HERO */
+
+#hero {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 43px;
+    padding: 80px 0;
+}
+
+#hero div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+}
+
+#hero div header,
+#hero div p {
+    color: #e5e7eb;
+    max-width: 500px;
+}
+
+#hero div header {
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+#hero div button {
+    background-color: #3882f5;
+    border: none;
+    border-radius: 4px;
+    flex-grow: 0;
+    padding: 8px 32px;
+}
+
+#hero div button a {
+    color: #e5e7eb;
+    font-weight: 600;
+    text-decoration: none;
+}
