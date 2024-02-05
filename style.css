@@ -38,11 +38,11 @@ nav {
     z-index: 9999;
 }
 
-nav #logo {
+nav .logo {                     /* Changed from id to class for logo */
     margin-right: auto;
 }
 
-nav #logo a {
+nav .logo a {
     color: #d99326;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
@@ -51,8 +51,8 @@ nav #logo a {
     transition: all 0.3s;
 }
 
-nav #logo:hover a {
-    transform: scale(1.1);  /*changed the scale factor from 1.2 to 1.1*/
+nav .logo:hover a {
+    transform: scale(1.1);
     transition: all 0.3s;
     border: none;
 }
@@ -107,6 +107,14 @@ nav div a:hover {
     border-radius: 4px;
     flex-grow: 0;
     padding: 8px 32px;
+}
+
+#hero div button:hover {            /* Added hover feature */
+    background-color: #1f2937;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    flex-grow: 0;
+    padding: 6px 30px;
 }
 
 #hero div button a {
@@ -218,4 +226,74 @@ nav div a:hover {
     color: #1f2937;
     margin: 0;
     max-width: 60vw;
+}
+
+/* RECRUIT BOX */
+
+#recruit-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+#recruit-box div {
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #3882f5;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    max-height: 100px;
+    padding: 32px 64px;
+
+}
+
+#recruit-box div div {
+    align-items: start;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    max-width: 400px;
+    padding: 0;
+}
+
+#recruit-box div div header {
+    color: inherit;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#recruit-box div div p {
+    color: inherit;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#recruit-box div a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#recruit-box div button {
+    background-color: #3882f5;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    color: #e5e7eb;
+    flex-grow: 0;
+    padding: 8px 32px;
+}
+
+#recruit-box div button:hover {
+    background-color: #e5e7eb;
+    border: 2px solid #1f2937;
+    color: #1f2937;
+    border-radius: 4px;
+    flex-grow: 0;
+    padding: 8px 32px;
 }
