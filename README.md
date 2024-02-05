@@ -5,4 +5,4 @@ Second 'The Odin Project'(TOP) project: Creating a full landing page with our cu
 I have chosen to crate the landing page for a fictional pharma company. (I am majoring in chemistry :P)
 
 I started this project: 04/02/2024 21:11 CET.
-I finished this project: TBD
+I finished this project: 05/02/2024 04:32 CET
