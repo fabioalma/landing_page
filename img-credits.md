@@ -3,3 +3,4 @@
 3. img/environment.jpg ___ credits to Pixabay in Pexels: https://www.pexels.com/@pixabay/
 4. img/investors.jpg ___ credits to AlphaTradeZone in Pexels: https://www.pexels.com/@alphatradezone/
 5. img/students.jpg ___ credits to Emily Ranquist in Pexels: https://www.pexels.com/@emily-ranquist-493228/
+6. img/happy-kid.jpg ___ credits to jonas mohamadi in Pexels: https://www.pexels.com/@jonas-mohamadi/
