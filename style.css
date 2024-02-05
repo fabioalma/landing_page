@@ -20,6 +20,11 @@ footer {
     background-color: #e5e7eb;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* NAV BAR */
 
 nav {
@@ -38,17 +43,18 @@ nav {
     z-index: 9999;
 }
 
-nav .logo {                     /* Changed from id to class for logo */
+nav .logo {                  
     margin-right: auto;
 }
 
-nav .logo a {
+.logo a {
     color: #d99326;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
     font-size: 24px;
     transform: scale(1);
     transition: all 0.3s;
+    text-decoration: none;      /* Added for compatibility w/footer logo */
 }
 
 nav .logo:hover a {
@@ -109,7 +115,7 @@ nav div a:hover {
     padding: 8px 32px;
 }
 
-#hero div button:hover {            /* Added hover feature */
+#hero div button:hover {            
     background-color: #1f2937;
     border: 2px solid #e5e7eb;
     border-radius: 4px;
@@ -296,4 +302,75 @@ nav div a:hover {
     border-radius: 4px;
     flex-grow: 0;
     padding: 8px 32px;
+}
+
+/* FOOTER */
+
+footer {
+    align-items: start;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 80px;
+    justify-content: start;
+    padding: 32px 64px;
+}
+
+#left-column {
+    margin-right: auto;
+}
+
+#left-column .logo {
+    margin-bottom: 32px;
+}
+
+#left-column p#copyright {
+    color: #e5e7eb;
+    font-size: 12px;
+    max-width: 30vw;
+    margin: 46px 0 0 0;
+    padding: 0;
+}
+
+#left-column div {
+    display: flex;
+    gap: 16px;
+    justify-content: start;
+    align-items: center;
+}
+
+
+#left-column div a img {
+    width: 32px;
+}
+
+#about-lb,
+#help-lb {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#about-lb,
+#help-lb,
+#about-us li,
+#help li {
+    color: #e5e7eb;
+}
+
+#about-us,
+#help {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    text-align: left;
+}
+
+#about-us li,
+#help li {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+#about-us li:hover,
+#help li:hover {
+    color: #acafb3;
 }
